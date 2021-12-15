@@ -1,65 +1,65 @@
-QA Automation Testing
+# QA Automation Testing 
 
+## Overview
 
-Overview
 ###This project performs automated testing of various applications:
 
-Web based application - Grafana
-Web API - Grafana API
-Mobile application - Mortgage App
-Electron application - ToDoList
-Desktop application - Windows Calculator
+<li>Web based application - Grafana
+<li>Web API - Grafana API
+<li>Mobile application - Mortgage App
+<li>Electron application - ToDoList
+<li>Desktop application - Windows Calculator
+
 ###Infrastructure includes:
+<li>Layers (utilities, extensions, workflows...)
+<li>Page object model design pattern
+<li>External files Support
+<li>Failure mechanisms
+<li>Electron driver
+<li>Reporting system (including video recordings & screenshots)
+<li>Support for different client browsers
+<li>API support
+<li>Visual testing
+<li>Database support
+<li>CI & CD support
 
-Layers (utilities, extensions, workflows...)
-Page object model design pattern
-External files Support
-Failure mechanisms
-Electron driver
-Reporting system (including video recordings & screenshots)
-Support for different client browsers
-API support
-Visual testing
-Database support
-CI & CD support
 ###Tools & Frameworks:
+<li>TestNG Framework
+<li>Listeners interface for Logs & Customizable TestNG Reports
+<li>Monte Screen Recorder for Video Recordings
+<li>Selenium Java & API
+<li>REST Assured for API Testing
+<li>SikuliX API for Visual Testing
+<li>Appium Studio & Java-Appium for Mobile Testing
+<li>MySQL Database to store inputs for Mortgage calculations
+<li>OpenCSV for CSV file parsing
+<li>Jenkins for Automating Test executions & Test Pipelines
+<li>Allure Reports - Reporting System
 
-TestNG Framework
-Listeners interface for Logs & Customizable TestNG Reports
-Monte Screen Recorder for Video Recordings
-Selenium Java & API
-REST Assured for API Testing
-SikuliX API for Visual Testing
-Appium Studio & Java-Appium for Mobile Testing
-MySQL Database to store inputs for Mortgage calculations
-OpenCSV for CSV file parsing
-Jenkins for Automating Test executions & Test Pipelines
-Allure Reports - Reporting System
 ##Test Overview
+#### Api tests:
+1. Users data
+2. Find user by id
+3. Update user
+4. Add new admin user
 
-Api tests:
-Users data
-Find user by id
-Update user
-Add new admin user
 ####Desktop tests:
+1. Addition between 2 numbers
+2. Multiply between 2 numbers
 
-Addition between 2 numbers
-Multiply between 2 numbers
 ####Web tests:
+1. Log in
+2. Grafana logo - using sikuli
+3. Resize panel
+4. Add new users - using CSV file
+5. Delete panel
+6. Add new panel
 
-Log in
-Grafana logo - using sikuli
-Resize panel
-Add new users - using CSV file
-Delete panel
-Add new panel
 ####Mobile tests:
+1. Calculate using data from DB
+2. Save last one
 
-Calculate using data from DB
-Save last one
 ####Desktop tests:
-
-Create new task
-Delete task
-Verify date in the app is the same as today# QA Automation Testing Showcase
+1. Create new task
+2. Delete task
+3. Verify date in the app is the same as today# QA Automation Testing Showcase
